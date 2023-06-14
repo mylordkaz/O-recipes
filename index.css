@@ -1,48 +1,60 @@
+html {
+    background-image: url(./img/gray.png);
+    background-size: cover;
+}
+
 * {
     box-sizing: border-box;
     text-align: center;
-    background-color: rgb(41, 41, 42);
-    font-family: 'Intel', sans-serif
-
+    font-family: 'Adventure Script', sans-serif ;
+    font-weight: 300;
 }
+
 a {
     text-decoration: none;
     background: none;
     color: beige;
-    font-family: ;
-
-
+    
 }
+
 .title {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: baseline;
     position: relative;
 }
+
 .recipes{
-    color: white;
+    color: beige;
     background: none;
     position: sticky;
+    font-size: 68px;
+    
 }
 
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
 
 }
+
 img {
-    width: 100px;;
+    width: 200px;
     background: none;
 }
-.img{
-    flex-basis: 80%;
+
+.img-chef{
+    flex-basis: 50%;
     order: 2;
     
 }
+
 .text{
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 150px;
     color: beige;
 }
 
@@ -54,13 +66,16 @@ img {
     justify-content: space-between;
 
 }
+
 .imgb{
     background: none;
     margin-left: auto;
 }
+
 .pasta{
     padding: 50px;
 }
+
 .pizza{
     padding: 50px;
 }
