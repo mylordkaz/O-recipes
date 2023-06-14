@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Adventure-Script ;
+    src: url(./font/Adventure/AdventureScript.otf);
+}
 html {
     background-image: url(./img/gray.png);
     background-size: cover;
@@ -6,7 +10,7 @@ html {
 * {
     box-sizing: border-box;
     text-align: center;
-    font-family: 'Adventure Script', sans-serif ;
+    font-family: Adventure-Script, sans-serif ;
     font-weight: 300;
 }
 
