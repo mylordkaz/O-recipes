@@ -1,6 +1,6 @@
 @font-face{
     font-family: Adventure-Script ;
-    src: url(./font/Adventure/AdventureScript.otf);
+    src: url(./font/Adventure/AdventureScript.ttf);
 }
 html {
     background-image: url(./img/gray.png);
