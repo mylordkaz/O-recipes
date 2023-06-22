@@ -2,6 +2,11 @@
     font-family: Adventure-Script ;
     src: url(./font/Adventure/AdventureScript.ttf);
 }
+@font-face{
+    font-family: Caveat;
+    src: url(./font/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
 html {
     background-image: url(./img/gray.png);
     background-size: cover;
@@ -10,7 +15,7 @@ html {
 * {
     box-sizing: border-box;
     text-align: center;
-    font-family: Adventure-Script, sans-serif ;
+    font-family: Caveat, sans-serif ;
     font-weight: 300;
 }
 
@@ -28,11 +33,12 @@ a {
     position: relative;
 }
 
-.recipes{
+h1 {
     color: beige;
     background: none;
-    position: sticky;
-    font-size: 68px;
+    font-size: 90px;
+    padding-top: 30px;
+    margin-bottom: 0px;
     
 }
 
@@ -44,6 +50,13 @@ a {
 
 }
 
+.text{
+    font-size: 60px;
+    font-weight: 300;
+    padding-left: 150px;
+    color: beige;
+}
+
 img {
     width: 200px;
     background: none;
@@ -52,34 +65,45 @@ img {
 .img-chef{
     flex-basis: 50%;
     order: 2;
+    margin-bottom: 200px;
     
 }
 
-.text{
-    font-size: 30px;
-    font-weight: 300;
-    padding-left: 150px;
+h4{
     color: beige;
+    font-size: 50px;
+    text-align: center;
 }
 
 .burger{
-    background-color: rgb(172, 134, 36);
+    
     padding: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
-
-.imgb{
+.img-burger{
     background: none;
-    margin-left: auto;
+    
 }
 
 .pasta{
     padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-pasta{
+    background: none; 
 }
 
 .pizza{
     padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-pizza{
+    background: none;
 }
