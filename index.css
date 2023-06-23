@@ -23,7 +23,6 @@ a {
     text-decoration: none;
     background: none;
     color: beige;
-    
 }
 
 .title {
@@ -51,7 +50,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     
-
+    
 }
 
 .text{
@@ -86,12 +85,12 @@ h4{
     align-items: center;
     justify-content: space-around;
     background-color: rgba(40, 40, 40, 0.3);
-
+    
 }
 .img-burger{
     background: none;
-    
 }
+.img-burger:hover{transform: scale(1.5);}
 
 .pasta{
     padding: 50px;
@@ -102,6 +101,7 @@ h4{
 .img-pasta{
     background: none; 
 }
+.img-pasta:hover{transform: scale(1.5);}
 
 .pizza{
     padding: 50px;
@@ -113,3 +113,4 @@ h4{
 .img-pizza{
     background: none;
 }
+.img-pizza:hover{transform: scale(1.5);}
