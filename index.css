@@ -41,6 +41,10 @@ h1 {
     margin-bottom: 0px;
     
 }
+.logo{
+    width: 200px;
+    margin-top: 50px;
+}
 
 .container{
     display: flex;
