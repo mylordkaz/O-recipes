@@ -85,6 +85,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(40, 40, 40, 0.3);
 
 }
 .img-burger{
@@ -107,6 +108,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(40, 40, 40, 0.3);
 }
 .img-pizza{
     background: none;
