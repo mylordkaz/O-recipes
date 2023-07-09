@@ -2,7 +2,34 @@
     font-family: Caveat;
     src: url(../font/Caveat/Caveat-VariableFont_wght.ttf);
 }
-
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
 html{
     font-family: Caveat;
     color: beige;
@@ -10,34 +37,66 @@ html{
     background-size: cover;
 }
 header{
-font-size: 2.5rem;
+font-size: 2em;
 text-align: center;
+padding: 15px;
+}
+h1{
+    text-align: center;
 }
 img{
     display: block;
     margin: auto;
     margin-bottom: 80px;
 }
-.content{
+.row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
 .text{
+    float: left;
     border: 1px solid black;
     border-radius: 20px;
-    width: 65%;
     padding: 15px;
     font-size: 1.6rem;
+    background-color: rgba(40, 40, 40, 0.3);
 }
 #text, #ing {
     font-size: 2rem;
 }
 .ingredients{
+    float: left;
     border: 1px solid black;
     border-radius: 20px;
-    width: 15%;
     padding: 15px;
+    margin-left: 20%;
     text-align: center;
     font-size: 1.6rem;
+    background-color: rgba(40, 40, 40, 0.3);
     
+}
+.ingredients ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.steps{
+    
+    text-align: center;
+    padding: 15px;
+    margin: 4%;
+    border: 1px solid black;
+    border-radius:  20px;
+    font-size: 1.8rem;
+    margin-top: 80px;
+    background-color: rgba(40, 40, 40, 0.3);
+}
+.steps ul, ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 2rem;
 }
