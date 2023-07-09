@@ -1,0 +1,43 @@
+@font-face{
+    font-family: Caveat;
+    src: url(../font/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+html{
+    font-family: Caveat;
+    color: beige;
+    background-image: url(../img/gray.png);
+    background-size: cover;
+}
+header{
+font-size: 2.5rem;
+text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 65%;
+    padding: 15px;
+    font-size: 1.6rem;
+}
+#text, #ing {
+    font-size: 2rem;
+}
+.ingredients{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 15%;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
